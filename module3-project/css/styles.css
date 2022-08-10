@@ -35,6 +35,8 @@ p {
     position: relative;
 	height: 1100px
  }
+ 
+
 
 span {
   font-size: 20px;
@@ -91,7 +93,7 @@ span {
   margin-bottom: 20px;
   line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand p:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 .navbar-brand h2 { /* Our Menu */
@@ -103,20 +105,23 @@ span {
 }
 
 #nav-list {  /* #nav-list is the <ul> under the navbar section */
-  margin-top: 10px;
+  margin: 10px;
+  
+  
 }
-#nav-list a { /* this is for link/glyphicon color and aligning to center */
+#nav-list p { /* this is for link/glyphicon color and aligning to center */
   color: rgb(0,0,0);
   font-weight: bold;
   text-align: center;
   border: 1px solid black;
-  background-color: rgb(200,200,200);
+  background-color: rgb(100,215,222);
 }
-#nav-list a:hover { /* this is for changing mouse pointer when it goes over glyphicon */
+#nav-list p:hover { /* this is for changing mouse pointer when it goes over glyphicon */
   background: #E7E7E7;
 }
-#nav-list a span { /* for font options of navigation list elements */
+#nav-list p span { /* for font options of navigation list elements */
   font-size: 1.2em;
+
 }
 
 p .text-center {
@@ -124,7 +129,7 @@ p .text-center {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid rgb(0,0,0);
+  border: 1px solid rgb(0,200,150);
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -168,10 +173,10 @@ p .text-center {
     padding-top: 10px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav p { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav p span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
 }
